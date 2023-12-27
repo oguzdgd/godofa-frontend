@@ -1,0 +1,33 @@
+/* Navbar linklerin genel stil ayarları */
+.navbar-nav a {
+    padding: 0.5rem 1rem;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  /* Dropdown linklerin stil ayarları */
+  .nav-item.dropdown:hover .dropdown-toggle {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Dropdown menüsünün stil ayarları */
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  /* Dropdown içindeki linklerin stil ayarları */
+  .nav-item.dropdown .dropdown-menu .dropdown-item {
+    padding: 0.5rem 1rem;
+    color: #000;
+  }
+  
+  /* Dropdown içindeki linklerin hover stil ayarları */
+  .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
